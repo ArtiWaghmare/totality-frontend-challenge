@@ -15,8 +15,7 @@ import { AuthProvider } from './context/AuthContext';
 
 const AppContent = () => {
   const location = useLocation();
-        <Route path='/login' element={<Login />} />
-  const hideNavAndFooterRoutes = ['/', '/register','login'];
+  const hideNavAndFooterRoutes = ['/', '/register','/login'];
   const shouldHideNavAndFooter = hideNavAndFooterRoutes.includes(location.pathname);
 
   return (
@@ -25,7 +24,7 @@ const AppContent = () => {
       <Routes>
       <Route path='/' element={<Login />} />
         <Route path='/home' element={<Home />} />
-       
+      
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Registration />} />
         <Route path='/aboutus' element={<AboutUs />} />

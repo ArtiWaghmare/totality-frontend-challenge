@@ -41,3 +41,34 @@
         border-bottom-right-radius: .3rem;
     }
 }
+/* Make sure the form container adjusts well on different devices */
+@media (max-width: 768px) {
+    .card {
+      padding: 1.5rem; /* Add more padding for mobile screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      box-shadow: none; /* Remove shadow on smaller screens */
+      border: none; /* Remove border to make it look cleaner */
+    }
+    img {
+      width: 150px; /* Reduce image size for small screens */
+    }
+    h4 {
+      font-size: 1.2rem; /* Smaller heading size */
+    }
+  }
+  
+  .gradient-custom-2 {
+    /* Gradient background style for the right column */
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+  }
+  
+  .button-gradient {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    border: none;
+  }
+  
+  

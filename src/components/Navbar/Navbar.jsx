@@ -23,7 +23,7 @@ const Navbar = () => {
             <li><button onClick={logout}>Logout</button></li>
           </>
         ) : (
-          <li><Link to="/login">LOGIN</Link></li>
+          <li><Link to="/">LOGIN</Link></li>
         )}
       </ul>
       <RxHamburgerMenu
