@@ -1,1 +1,85 @@
-
+.custom-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: solid gray 8px;
+    max-width: 500px; /* Adjust width for responsiveness */
+    margin: auto; /* Center the form */
+    margin-top: 10px; /* Space from top */
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .custom-card img {
+    max-width: 150px; /* Logo size */
+    margin-bottom: 15px;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 0.9rem;
+  }
+  
+  .form-label {
+    font-size: 0.85rem;
+  }
+  
+  .form-control {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  
+  .button-gradient {
+    background-color: #ff5722; /* Gradient color for button */
+    border: none;
+    color: white;
+  }
+  
+  .button-gradient:hover {
+    background-color: #ff7043; /* Darker color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .custom-card {
+      padding: 15px;
+      margin-top: 50px;
+      max-width: 350px; /* Narrow width for smaller screens */
+    }
+  
+    h4 {
+      font-size: 1.3rem;
+    }
+  
+    .form-control {
+      font-size: 0.85rem;
+      padding: 8px;
+    }
+  
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-card {
+      max-width: 90%; /* Full width on very small screens */
+      margin-top: 20px;
+    }
+  
+    h4 {
+      font-size: 1.2rem;
+    }
+  
+    .form-control {
+      font-size: 0.8rem;
+    }
+  
+    p {
+      font-size: 0.75rem;
+    }
+  }
+  

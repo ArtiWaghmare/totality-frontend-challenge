@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { useAuth } from '../../context/AuthContext'; 
-import { Button, Container, Row, Col, Form } from 'react-bootstrap';
+import { Button,  Form } from 'react-bootstrap';
 import './Registration.css'; // Make sure to create a CSS file for styles
 
 const Registration = () => {
@@ -26,9 +26,9 @@ const Registration = () => {
   };
 
   return (
-    <Container className="mt-5 card custom-card">
-      <Row>
-        <Col md={6} className="mb-5 mx-auto"> 
+    <div className="mt-4  custom-card">
+ 
+      
           <div className="d-flex flex-column align-items-center">
             <div className="text-center">
               <img 
@@ -87,9 +87,8 @@ const Registration = () => {
               </Button>
             </div>
           </div>
-        </Col>
-      </Row>
-    </Container>
+    
+    </div>
   );
 };
 
